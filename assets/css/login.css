@@ -134,7 +134,7 @@ nav .sidebar{
 /* Login Section CSS starts */
 
 .login-section{
-    background-image: url(../Images/about_hero.png.jpg);
+    background-image: url(../images/about_hero.png);
     background-position: center;
     background-size: cover;
     margin-top: 50px;
