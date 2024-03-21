@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Home - Time Zone </title>
+    <!-- Font Awesome icons -->
+    <script src="https://kit.fontawesome.com/1d02b46c83.js" crossorigin="anonymous"></script>
+    <!-- CSS links -->
+    <link rel="stylesheet"  href="assets/css/Index.css">
+    <!-- Josefin sans- Heading Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <!-- Google Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- Font Awesome icons -->
+    <script src="https://kit.fontawesome.com/1d02b46c83.js" crossorigin="anonymous"></script>
+    <!-- Scroll to top JS -->
+    <script src="assets/js/scrolltop.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-section">
+            <div class="Logo"> 
+                <img src="assets/images/logo.png.jpg" alt="" href="index.html"> 
+            </div>
+            <div class="menu-col"> 
+    
+                <!-- <nav class="navigation-bar menu-col">
+                    <ul>
+                        <li><a href="#Home"> Home </a></li>
+                        <li><a href="#Aboutus"> About us </a></li>
+                        <li><a href="#Shop"> Shop </a></li>
+                        <li><a href="#Contact"> Contact </a></li>
+                        <li><a href="#Login"> Login  </a></li>
+                    </ul>
+                </nav>
+                <nav class="side-bar">
+                    <ul>
+                        <li><a href="#Home"> Home </a></li>
+                        <li><a href="#Aboutus"> About us </a></li>
+                        <li><a href="#Shop"> Shop </a></li>
+                        <li><a href="#Contact"> Contact </a></li>
+                        <li><a href="#Login"> Login  </a></li>
+                    </ul>
+                </nav> -->
+
+                <nav>
+                    <ul class="sidebar">
+                      <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+                      <li><a href="index.html">Home </a></li>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="shop.html">Shop</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                      <li><a href="login.html">Login</a></li>
+                    </ul>
+                    <ul>
+                      <li class="hideOnMobile"><a href="index.html">Home</a></li>
+                      <li class="hideOnMobile"><a href="about.html">About</a></li>
+                      <li class="hideOnMobile"><a href="shop.html">Shop</a></li>
+                      <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+                      <li class="hideOnMobile"><a href="login.html">Login</a></li>
+                      <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+                    </ul>
+                  </nav>
+                  <script>
+                    function showSidebar(){
+                      const sidebar = document.querySelector('.sidebar')
+                      sidebar.style.display = 'flex'
+                    }
+                    function hideSidebar(){
+                      const sidebar = document.querySelector('.sidebar')
+                      sidebar.style.display = 'none'
+                    }
+                  </script>
+            </div>
+            <div class="icons-col">
+                <div>
+                    <span class="material-symbols-outlined"> search </span>
+                    <span class="material-symbols-outlined"> account_circle </span>
+                    <span class="material-symbols-outlined"> shopping_cart </span>
+                </div>
+             </div> 
+        </div> 
+        <script src="assets/js/hamburger-menu.js"></script>      
+    </header>
+<!-- Header Section Ends-->
+
+    <!-- Home Section starts -->
+    <section>
+        <div class="Home-section">
+            <div class="home-cont">
+                <h1> Select your new <br> perfect style</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
+                <button class="btn">Shop Now</button>
+            </div>
+            <div class="watch">
+                <img src="assets/images/watch.png.jpg" alt="watch">
+            </div>
+        </div>
+    </section>
+    <!-- Home Section starts -->
+
+    <!-- New Arrivals Section Starts -->
+    <section class="new-arrivals">
+        <div class="arrivals-heading">
+            <h2> New Arrivals </h2>
+        </div>
+         
+        <div class="arrivals-cont"> <!-- Image Box Container -->
+            <div class="cont-new-arri">
+               <img src="assets/images/new_product1.png.jpg">
+               <h4> Thermo Ball Etip Gloves </h4>
+               <h5> $ 45,743 </h5>
+            </div> 
+
+            <div class="cont-new-arri">
+                <img src="assets/images/new_product2.png.jpg">
+                <h4> Thermo Ball Etip Gloves </h4>
+                <h5> $ 45,743 </h5>
+             </div> 
+
+             <div class="cont-new-arri">
+                <img src="assets/images/new_product3.png.jpg">
+                <h4> Thermo Ball Etip Gloves </h4>
+                <h5> $ 45,743 </h5>
+             </div>  <!-- Image box container ends-->
+    
+        </div>
+    </section>
+    <!-- New Arrivals Section Ends -->
+
+  <!-- Gallery Section starts -->
+<Section>
+    <div class="grid-container">
+        <div class="grid-box1">
+            <img src="assets/images/gallery1.png.jpg" alt="">
+        </div>
+        <div class="grid-box2">
+            <img src="assets/images/gallery2.png.jpg" alt="">
+        </div>
+        <div class="grid-box3">
+            <img src="assets/images/gallery3.png.jpg" alt="">
+        </div>
+        <div class="grid-box4">
+            <img src="assets/images/gallery4.png.jpg" alt="">
+        </div>
+    </div>
+</Section>
+  <!-- Gallery Section Ends -->
+
+  <!-- popular Items Section Starts -->
+  <Section>
+     <div class="popular-items">
+        <h1>Popular Items</h1>
+        <p> Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. </p>
+     </div>
+     <div class="polpular-content-container">
+        <div class="popular-content-box">
+            <img src="assets/images/popular1.png.jpg">
+               <div class="wishlist">
+                <span class="material-symbols-outlined">
+                    favorite
+                </span>
+               </div>
+               <div class="cart-button">
+                 <span> Add to cart</span>
+               </div>
+               <h4>Thermo Ball Etip Gloves </h4> 
+               <h6> $ 45,743 </h6>
+        </div>
+        
+        <div class="popular-content-box">
+            <img src="assets/images/popular2.png.jpg">
+               <div class="wishlist">
+                 <span class="material-symbols-outlined">
+                    favorite
+                 </span>
+               </div>
+               <div class="cart-button">
+                 <span> Add to cart</span>
+               </div>
+               <h4>Thermo Ball Etip Gloves </h4> 
+               <h6> $ 45,743 </h6>
+        </div>
+
+        <div class="popular-content-box">
+            <img src="assets/images/popular3.png.jpg">
+               <div class="wishlist">
+                  <span class="material-symbols-outlined">
+                    favorite
+                 </span>
+               </div>
+               <div class="cart-button">
+                  <span> Add to cart</span>
+               </div>
+            <h4>Thermo Ball Etip Gloves </h4> 
+            <h6> $ 45,743 </h6>
+        </div>
+    </div>
+
+    <div class="polpular-content-container">
+        <div class="popular-content-box">
+            <img src="assets/images/popular4.png.jpg">
+               <div class="wishlist">
+                <span class="material-symbols-outlined">
+                    favorite
+                </span>
+               </div>
+               <div class="cart-button">
+                 <span> Add to cart</span>
+               </div>
+               <h4>Thermo Ball Etip Gloves </h4> 
+               <h6> $ 45,743 </h6>
+        </div>
+        
+        <div class="popular-content-box">
+            <img src="assets/images/popular5.png.jpg">
+               <div class="wishlist">
+                 <span class="material-symbols-outlined">
+                    favorite
+                 </span>
+               </div>
+               <div class="cart-button">
+                 <span> Add to cart</span>
+               </div>
+               <h4>Thermo Ball Etip Gloves </h4> 
+               <h6> $ 45,743 </h6>
+        </div>
+
+        <div class="popular-content-box">
+            <img src="assets/images/popular6.png.jpg">
+               <div class="wishlist">
+                  <span class="material-symbols-outlined">
+                    favorite
+                 </span>
+               </div>
+               <div class="cart-button">
+                  <span> Add to cart</span>
+               </div>
+            <h4>Thermo Ball Etip Gloves </h4> 
+            <h6> $ 45,743 </h6>
+        </div>
+    </div>
+
+    <div class="product-button"> 
+        <button class="btn product-button"> View more products</button>
+    </div> 
+</Section>
+<!-- popular Items Section Ends -->
+
+<!-- video section starts -->
+
+<section>
+   <div class="video-section">
+       <div class="play-icon">
+          <span class="material-symbols-outlined"> play_circle </span>
+       </div> 
+
+       <div class="video-section-next-video">
+          <h3> Next Video </h3> 
+          <span class="material-symbols-outlined"> arrow_forward </span> 
+       </div>
+   </div>
+</section>
+
+<!-- video section Ends -->
+
+<!-- Watch details Section starts -->
+<section>
+    <div class="choose-watches">
+        <div class="watch-product"> 
+            <h2> Watch of Choice </h2>
+            <p> Enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+                <div class="product-button2"> 
+                    <button class="btn">SHOW WATCHES </button>
+                </div> 
+        </div>
+        <div>
+            <img src="assets/images/choce_watch1.png.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="choose-watches mobile-res">
+        <div>
+            <img src="assets/images/choce_watch2.png.jpg" alt="">
+        </div>
+
+        <div class="watch-product2"> 
+            <h2> Watch of Choice </h2>
+            <p> Enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+                <div class="product-button2"> 
+                    <button class="btn">SHOW WATCHES </button>
+                </div> 
+        </div>
+    </div>
+</section>
+<!-- Watch details Section starts -->
+
+<!-- Info section starts -->
+
+<section>
+    <div class="info-section">
+        <div class="info-cont">
+            <span class="material-symbols-outlined"> package_2 </span>
+            <h4> Free Shipping Method </h4>
+            <p> aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd. </p>
+        </div>
+
+        <div class="info-cont">
+            <span class="material-symbols-outlined"> lock_open </span>
+            <h4> Secure Payment System </h4>
+            <p> aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd. </p>
+        </div>
+
+        <div class="info-cont">
+            <span class="material-symbols-outlined"> cycle </span>            
+            <h4> Secure Payment System </h4>
+            <p> aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd. </p>
+        </div>
+    </div>
+</section>
+
+<!-- Info section Ends  -->
+
+<!-- Scroll to top-->
+<button onclick="scrollToTop()" id="scrollToTopBtn"><i class="fa-solid fa-arrow-up"></i></button>
+
+<!-- Scroll to top ends-->
+
+<!-- Footer section starts -->
+<footer>
+    <div class="footer-section">
+        <div class="footer-logo">
+            <img src="assets/images/logo.png.jpg">
+            <p>Asorem ipsum adipolor sdit amet, consectetur adipisicing elitcf sed do eiusmod tem.</p>
+        </div>
+        <div class="footer-menu">
+            <h6>Quick Links</h6>
+            <ul>
+                <li><a href="#"> About us</a></li>
+                <li><a href="#"> Offers & Discounts </a></li>
+                <li><a href="#"> Get Coupen </a></li>
+                <li><a href="#"> Contact us</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-menu">
+            <h6>New Products</h6>
+            <ul>
+                <li><a href="#"> Woman Cloth </a></li>
+                <li><a href="#"> Fashion Accessories </a></li>
+                <li><a href="#"> Man Accessories </a></li>
+                <li><a href="#"> Rubber made Toys</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-menu">
+            <h6>Support</h6>
+            <ul>
+                <li><a href="#"> Frequently asked Questions </a></li>
+                <li><a href="#"> Terms & Conditions</a></li>
+                <li><a href="#"> Privacy Policy </a></li>
+                <li><a href="#"> Report a Payment Issue</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Terms & Copyright -->
+    <div class="footer-section-2">
+        <div class="footer-copy">
+             <h6>Copyright ©2024 All rights reserved | This template is made by <span> <b> Hashtag Digital marketing </b></span></h6>
+        </div>
+        <div class="social-icons">
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-behance"></i>
+            <i class="fa-solid fa-globe"></i>
+        </div>
+    </div>
+</footer>
+<!-- Footer section Ends -->
+
+
+</body>
+</html>

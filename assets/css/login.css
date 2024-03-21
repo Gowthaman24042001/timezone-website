@@ -1,0 +1,306 @@
+/** Main Default CSS Styling Starts **/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #FF2022;
+    --secondary-color: #0B1C39;
+    --text-color: Black;
+    --paragraph-text: #676767;
+}
+body{
+    background-color: white;
+    font-family: "Josefin Sans", sans-serif;
+    color: var(--secondary-color);
+    text-transform: capitalize;
+    overflow-x: hidden;
+}
+h1 {
+    font-family: "Josefin Sans", Sans-serif;
+    font-size: 50px;
+    color: var(--secondary-color);
+}
+h2 {
+    font-family: "Josefin Sans", Sans-serif;
+    font-size: 40px;
+    color: var(--secondary-color);
+}
+h3 {
+    font-family: "Josefin Sans", Sans-serif;
+    font-size: 35px;
+    color: var(--text-color);
+}
+h4 {
+    font-family: "Josefin Sans", Sans-serif;
+    font-size: 30px;
+    color: var(--text-color);
+}
+h5 {
+    font-family: "Josefin Sans", Sans-serif;
+    font-size: 25px;
+    color: var(--text-color);
+}
+h6 {
+    font-family: "Josefin Sans", Sans-serif;
+    font-size: 20px;
+    color: var(--text-color);
+}
+P{
+    font-family: "Roboto Sans" , sans-serif;
+    font-size: 16px;
+    font-weight: 500px;
+    color: var(--paragraph-text);
+    line-height: 1.5rem;
+}
+
+/** Main Default CSS Styling ENDS **/
+
+/* Hamburger Header Styles */
+nav .sidebar{
+    background-color: white;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  }
+  nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  nav li{
+    height: 50px;
+  }
+  nav a{
+    height: 100%;
+    padding: 0 25px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+  }
+  nav a:hover{
+    background-color: #f0f0f0;
+  }
+  /* nav li:first-child{
+    margin-right: auto;
+  } */
+  .sidebar{
+    position: fixed;
+    top: 0; 
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .sidebar li{
+    width: 100%;
+  }
+  .sidebar li:hover{
+    color: #FF2022;
+  }
+  .sidebar a{
+    width: 100%;
+  }
+  .menu-button{
+    display: none;
+  }
+  @media(max-width: 800px){
+    .hideOnMobile{
+      display: none;
+    }
+    .menu-button{
+      display: block;
+      align-items: center;
+      padding-left: 100px;
+    }
+  }
+  @media(max-width: 400px){
+    .sidebar{
+      width: 100%;
+    }
+  }
+
+  /** Header Ends with Toggle menu*/
+
+/* Login Section CSS starts */
+
+.login-section{
+    background-image: url(../Images/about_hero.png.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+}
+.login-section h1{
+    color: #0B1C39;
+    font-size: 75px;
+    text-align: center;
+    align-items: center;
+    padding: 200px 0;
+}
+
+/* Login section CSS Starts */
+
+.login-section-2{
+    width: 100%;
+    background-color: white;
+    padding: 200px 150px;
+    display: flex;
+    align-items: center;
+}
+.create-an-account { /*Craete an account col css*/
+   width: 50%;
+   background-image: linear-gradient(90deg, rgb(176, 142, 173) 0%, rgb(179, 104, 174) 64%, rgb(118, 82, 116) 100%);
+   padding: 160px 80px;
+   color: white;
+   text-align: center;
+}
+.create-an-account h6{
+    color: white;
+    padding-bottom: 15px;
+}
+.create-an-account p{
+    color: white;
+    padding: 15px 50px 20px 50px;
+    font-family: "Roboto", sans-serif;
+}
+.create-an-account h2{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 20px 10px;
+    margin: 25px 90px 0 90px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-family: "Roboto",sans-serif;
+    text-transform: uppercase
+}
+.create-an-account h2:hover{
+    background-color: white;
+    color: #FF2022;
+    transition: .4s;    /*Craete an account col css Ends*/
+}
+
+/*Login Form CSS Starts */
+
+.login-form{
+    width: 50%;
+    padding: 50px;
+}
+.login-form h3{
+    font-size: 23px;
+    line-height: 35px;
+}
+.form-container .fields{
+    padding: 50px 0;
+    background-color: white;
+    position: relative;
+    width: 100%;
+}
+.form-container .fields input{
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #c1c0c0;
+    font-family: "Roboto",sans-serif;
+    font-size: 16px ;
+    width: 100%;
+    margin-top: 10px;
+}
+.form-container .fields input::placeholder{
+    color: #c1c0c0;
+}
+.checkbox-cont{
+    width: 100%;
+}
+.checkbox-cont{
+    align-items: center;
+}
+.checkbox-cont input{
+    color: #c1c0c0;
+}
+.checkbox-cont label{
+    color: #c1c0c0;
+    font-size: 15px;
+    font-family: "Roboto",sans-serif;
+}
+.form-container input[type="submit"]{
+    background-color:white;
+    width: 100%;
+    text-align: center;
+    padding: 15px 30px;
+    border:1px solid #2577FD;
+    border-radius: 5px;
+    color:#2577FD;
+    font-weight: 500;
+    margin-top: 2rem;
+    font-size: 18px;
+    text-transform: uppercase
+ }
+ .form-container input[type="submit"]:hover{
+    background-color: #2577FD;
+    color: white;
+    transition: .5s ease-out;
+ }
+ .forgot-pass{      /* Forgot PassWord CSS*/
+   align-items: end;
+   text-align: end;
+   padding-top: 15px;
+ }
+ .forgot-pass h6{
+    font-family: "Roboto", sans-serif;
+    color:#a0a0a0;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 400;
+ }
+
+ @media screen and (min-width: 320px) and ( max-width: 575px){   /* Login section Mobile responsive CSS Starts */
+  
+  .login-section{
+    background-image: url(../Images/about_hero.png.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+}
+.login-section h1{
+    color: #0B1C39;
+    font-size: 50px;
+    text-align: center;
+    align-items: center;
+    padding: 150px 0 100px 0;
+}
+
+  .login-section-2{
+    width: 100%;
+    background-color: white;
+    padding: 50px 30px;
+    display: block;
+    align-items: center;
+}
+.create-an-account { /*Craete an account col css*/
+  width: 100%;
+  background-image: linear-gradient(90deg, rgb(176, 142, 173) 0%, rgb(179, 104, 174) 64%, rgb(118, 82, 116) 100%);
+  padding: 80px 30px;
+  color: white;
+  text-align: center;
+}
+.login-form{
+  width: 100%;
+  padding: 50px;
+}
+.login-form h3{
+  font-size: 23px;
+  line-height: 35px;
+  text-align: center;
+}
+ }

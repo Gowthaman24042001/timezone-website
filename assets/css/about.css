@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-container1{
+    height: 950px;
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.about-col{
+   width: 70%;
+   margin: auto;
+   height: max-content;
+  
+}
+.about-section{
+   padding-bottom: 50px;
+    width: 100%;
+    
+}
+.about-section h4{
+    padding-left: 65px;
+    font-size: 32px;
+    padding-bottom: 30px;
+    position: relative;
+}
+.about-section h4::before{
+    position: absolute;
+    top: 25%;
+    left: 3%;
+    transform: translateY(-50%) translateX(-50%);
+    content: " ";
+    height: 2px;
+    width: 50px;
+    background-color: #eb566c;
+   
+}
+.about-section p{
+    line-height: 30px;
+  width: 85%;
+   font-size: 15px;
+   color: rgb(95, 93, 93); ;
+}
+.about-section P:nth-child(3){
+    
+    padding-top: 15px ;
+}
+
+.about-container2{
+    height: 700px;
+    width: 100%;
+    background-image: url('../images/sectin_bg1.png.webp');
+    background-position: center left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.video-btn-col{
+    width: 100%;  
+    /* position: relative; */
+   z-index: 1;
+}
+.video-btn{
+   
+    width: max-content;
+    height: max-content;
+}
+.video-btn a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 30px;
+    transition: all 0.6s ease;
+    z-index: 2;
+}
+.video-btn a i{
+    font-size: 30px;
+}
+.video-btn:hover a {
+    color: var(--primary-color);
+    background-color: white;
+    
+}
+
+.about-container2::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(2, 5, 12, 0.5);
+    opacity: 0;
+    z-index: 0;
+}
+.about-container2:hover::after{
+    opacity: 1;
+}
+.video-next-col{
+    z-index: 3;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+.video-next{
+    z-index: 4;
+    width: 33%;
+    height: 150px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.video-next a{
+    display: block;
+    text-align: center;
+   width: 100%;
+   text-decoration: none;
+   color: white;
+   text-transform: uppercase;
+   font-family: "josefin Sans", sans-serif;
+}
+.video-next a i{
+    font-size: 26px;
+    width: 30%;
+    text-align: right;
+}

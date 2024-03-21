@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-container1{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-col{
+    width: 85%;
+    height: 70%;
+    margin: auto;
+}
+
+.contact-container2{
+    width: 100%;
+    height: 700px;
+}
+.contact-c2-col{
+    width: 85%;
+    height: 90%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+}
+.contact-row{
+    width: 65%;
+}
+.form-title{
+    width: 85%;
+    margin: auto;
+    margin-bottom: 25px;
+    font-size: 18px;
+    color: rgb(43, 42, 42);
+    
+}
+.contact-row .message, textarea{
+    width: 100%;
+}
+
+input, textarea{
+    border: 1px solid rgb(214, 214, 214);
+    margin-bottom: 25px;
+}
+textarea::placeholder{
+    padding: 10px 0 0 15px;
+    font-family: "Roboto Sans",sans-serif;
+    color: rgb(124, 123, 123);
+}
+input::placeholder{
+    color: rgb(124, 123, 123);
+    padding: 0 0 0 15px;
+    font-family: "Roboto Sans",sans-serif;
+}
+input:focus, textarea:focus{
+    outline: none;
+   
+}
+
+.name-email{
+    width: 100%;
+    display: flex;
+    gap: 35px;
+}
+.name-col, .email-col{
+    width: 50%;
+}
+.name-col input, .email-col input{
+    width: 100%;
+    height: 50px;
+}
+
+.subject-col input{
+    width: 100%;
+    height: 50px;
+}
+.contact-row button{
+    font-family: "Roboto Sans", sans-serif;
+    padding: 15px 25px;
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    border: none;
+    letter-spacing: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.4s ease;
+    overflow: hidden;
+}
+.contact-row button:hover{
+    color: black;
+    transform: scale(1.1);
+}
+
+.contact-c2-col  .contact-row:nth-child(2){
+    width: 30%;
+    height: max-content;
+    display: flex;
+    justify-content: right;
+}
+.contact-details{
+    width: 75%;
+    
+}
+
+.contact-details .details{
+    display: flex;
+    margin-bottom: 35px;
+}
+.details span i{
+    font-size: 24px;
+    color: rgb(124, 123, 123);
+}
+.details h3,p{
+    /* font-size: 16px; */
+    margin-left: 20px;
+}
+.details h3{
+    color: rgb(43, 42, 42);;
+    font-size: 16px;
+    padding-bottom: 8px;
+    font-family: "josefin Sans", sans-serif;
+}
+.details p{
+    color: rgb(124, 123, 123);
+    font-size: 15px;
+}
+/* 
+.grid-box{
+    margin: 80px 0;
+    height: 600px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.grid1{
+    grid-column: 1/3;
+    grid-row: 1/3;
+   
+}
+.grid2{
+    grid-column: 3/4;
+    grid-row: 1/3;
+}
+.grid3{
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+.grid4{
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+.grid1 img, .grid2 img, .grid3 img, .grid4 img{
+    width: 100%;
+    height: 100%;
+    transform: scale(1.1);
+    transition: transform 1s ease;
+   object-fit: cover;
+}
+.grid1, .grid2, .grid3, .grid4 {
+    overflow: hidden;
+    position: relative;
+    
+} 
+.grid1::after, .grid2::after, .grid3::after, .grid4::after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+     top: 0;
+    left: 0;
+    background-color: rgba(14, 14, 14, 0.295);
+   opacity: 0;
+}
+
+.grid1:hover img, .grid2:hover img, .grid3:hover img, .grid4:hover img{
+    transform: scale(1);
+}
+.grid1:hover::after, .grid2:hover::after, .grid3:hover::after, .grid4:hover::after{
+    opacity: 1;
+} */

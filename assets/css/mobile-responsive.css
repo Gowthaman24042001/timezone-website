@@ -1,0 +1,217 @@
+
+/* Shop Page */
+
+@media screen and (max-width:650px) {
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .hum-menu{
+        padding-left: 25px;
+        display: block !important;
+        width: max-content;
+        transition: all 0.5s ease;
+       
+    }
+    .hum-menu i{
+        font-size: 22px;
+        background-color:  #0b1c39;
+        color: white;
+        padding: 10px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .fa-xmark{
+        display: none;
+    }
+    header{
+        height: 80px;
+       
+    }
+    header nav{
+        position: relative;
+        width: 100%;
+       justify-content: space-between;
+        display: flex;
+        align-items: center;
+    }
+    header .logo,  .payment-icons{
+        width:max-content;
+       
+    }
+    header .logo{
+        order: 2;
+        text-align: center;
+    }
+ 
+    .payment-icons{
+        order: 3;
+        text-align: right;
+    }
+    nav ul{
+        position: absolute;
+        top: 62px;
+        height: 350px;
+        width: 100%;
+        background-color: rgb(70, 69, 69);
+        display: none;
+      
+    }
+   nav ul a{
+    width: 100%;
+    display: block;
+    margin-top: 30px;
+    color: white;
+    border-radius: 30px;
+    padding: 8px 0;
+   }
+   nav ul a:hover{
+    background-color: white;
+   }
+   .payment-icons a{
+    margin-right: 10px;
+   font-size: 18px;
+    }
+
+    /* Shop Page */
+    .shop-bg-container{
+        height: 50vh;
+    }
+    .shop-bg-content h1{
+        font-size: 28px;
+    }
+    .shop-prouduct-container{
+        height: 4300px;
+        
+    }
+    .shop-product-row{
+        flex-direction: column;
+        justify-content: center;
+        gap: 35px;
+    }
+    .shop-product-col{
+        height: max-content;
+        
+    }
+    .product-list-col{
+        grid-template-columns: 1fr; /* Change to single column layout */
+        grid-template-rows: auto;
+    }
+    
+    .product-features-container{
+        height: 850px;
+        
+    }
+    .features-col{
+        width: 90%;
+        height: 90%;
+        flex-direction: column;
+        gap: 10px 10px ;
+        align-items: center;
+    }
+    
+    .features{
+        width: 80%;
+        height: 25%;
+      
+    }
+    .features h3{
+        font-size: 18px;
+    }
+    .features p{
+        font-size: 16px;
+    }
+    footer{
+        height: 900px;
+    }
+    .footer-row{
+        flex-direction: column;
+        gap: 35px;
+    }
+    .footer-col{
+        width: 90%;
+    }
+    .footer-col h3{
+        margin-bottom: 20px;
+    }
+    .footer-col2{
+        flex-direction: column;
+        gap: 25px;
+    }
+    .footer-col2-row{
+        width: 100%;
+    }
+    .footer-col2 .footer-col2-row:nth-child(2){
+        text-align: left;
+        padding-bottom: 20px;
+    }
+    .footer-col2-row p{
+        width: 100%;
+        margin: 0;
+        text-align: left;
+        padding: 0;
+       
+    }
+
+    /* About Page */
+
+    .about-container1{
+        height: 920px;
+        
+    }
+    .about-col{
+        width: 88%;
+        height: 80%;
+    }
+    .about-section h4{
+        font-size: 28px;
+        padding-left: 50px;
+    }
+    .about-section p{
+        width: 100%;
+    }
+    .about-container2{
+        height: 500px;
+    }
+    .video-next{
+        width: 50%;
+        height: 50px;
+    }
+
+    /* Contact Page */
+
+    .contact-container1{
+        display: none;
+    }
+    .contact-container2{
+        height: 900px;
+        
+        align-items: center;
+    }
+    .form-title{
+        margin-top: 80px;
+    }
+    .contact-c2-col{
+        
+        flex-direction: column;
+        align-items: center;
+        height: 80%;
+        width: 90%;
+        gap: 30px;
+        
+    }
+    .contact-row{
+        width: 100%;
+    }
+    .contact-c2-col  .contact-row:nth-child(2){
+        width: 100%;
+    }
+    .contact-details{
+        width: 100%;
+       
+    }
+}
