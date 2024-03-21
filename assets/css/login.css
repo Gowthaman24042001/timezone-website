@@ -290,7 +290,7 @@ nav .sidebar{
 .create-an-account { /*Craete an account col css*/
   width: 100%;
   background-image: linear-gradient(90deg, rgb(176, 142, 173) 0%, rgb(179, 104, 174) 64%, rgb(118, 82, 116) 100%);
-  padding: 80px 30px;
+  padding: 40px 0;
   color: white;
   text-align: center;
 }
