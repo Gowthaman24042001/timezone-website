@@ -771,7 +771,7 @@ nav .sidebar{
 @media screen and (min-width: 320px) and (max-width: 575px) {  /* Video Section Mobile Responsive Starts */
    
     .video-section{
-        background-image: url("../Images/sectin_bg1.png.jpg");
+        background-image: url("../images/sectin_bg1.png.jpg");
         background-position: center;
         background-size: cover;
         padding-top: 50px;
