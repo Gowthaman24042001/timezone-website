@@ -267,7 +267,7 @@ nav .sidebar{
  @media screen and (min-width: 320px) and ( max-width: 575px){   /* Login section Mobile responsive CSS Starts */
   
   .login-section{
-    background-image: url(../Images/about_hero.png.jpg);
+    background-image: url(../images/about_hero.png);
     background-position: center;
     background-size: cover;
     margin-top: 50px;
